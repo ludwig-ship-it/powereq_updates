@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Sparkle appcast for ⚡️EQ.
+
+    Each time you ship a new build, append an <item> at the TOP of the list
+    (Sparkle reads top-down, treats the first item as latest). Then upload
+    this file AND the matching .pkg to:
+        https://www.rafaelludwig.com/apps/powereq/
+
+    To fill in sparkle:edSignature, run:
+        sign_update build/PowerEQ-<version>.pkg
+    (the release.sh script prints the exact command after notarization).
+-->
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>⚡️EQ Updates</title>
+        <link>https://www.rafaelludwig.com/apps/powereq/appcast.xml</link>
+        <description>Automatic updates for the ⚡️EQ audio unit.</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.0</title>
+            <description><![CDATA[
+                <h3>⚡️EQ 1.0</h3>
+                <p>Initial release.</p>
+            ]]></description>
+            <pubDate>Wed, 24 Jun 2026 22:00:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://www.rafaelludwig.com/apps/powereq/PowerEQ-1.0.pkg"
+                sparkle:version="1"
+                sparkle:shortVersionString="1.0"
+                sparkle:edSignature="PASTE_FROM_sign_update_OUTPUT"
+                length="46218955"
+                type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
