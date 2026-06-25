@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    Sparkle appcast for ⚡️EQ.
-
-    Each time you ship a new build, append an <item> at the TOP of the list
-    (Sparkle reads top-down, treats the first item as latest). Workflow:
-
-      1. release.sh produces build/PowerEQ-<version>.pkg + prints the
-         sparkle:edSignature line (paste into the new <item>).
-      2. Push appcast.xml to: ludwig-ship-it/powereq_updates (main branch)
-      3. Create a GitHub Release tagged v<version> and attach the .pkg as
-         an asset:
-             gh release create v<version> build/PowerEQ-<version>.pkg \
-                 --repo ludwig-ship-it/powereq_updates \
-                 --title "⚡️EQ <version>" --notes "Release notes…"
--->
+<!-- Sparkle appcast for ⚡️EQ. Workflow lives in the project's RELEASE.md. -->
 <rss version="2.0"
      xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -23,25 +9,25 @@
         <description>Automatic updates for the ⚡️EQ audio unit.</description>
         <language>en</language>
 
-       <item>
-    <title>Version 1.0.1</title>
-    <description><![CDATA[
-        <h3>⚡️EQ 1.0.1</h3>
-        <ul>
-            <li>Cleaner header (single bolt mark)</li>
-            <li>Buy License button alongside the trial badge</li>
-            <li>Sparkle-driven auto-update</li>
-        </ul>
-    ]]></description>
-    <pubDate>Thu, 25 Jun 2026 09:40:00 +0000</pubDate>
-    <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-   <enclosure
-    url="https://github.com/ludwig-ship-it/powereq_updates/releases/download/v1.0.1/PowerEQ-1.0.1.pkg"
-    sparkle:version="2"
-    sparkle:shortVersionString="1.0.1"
-    sparkle:edSignature="wr3ezfv7N4OKto7AWM4VqK2ru3tBdHgkKjyY+ht5JgxO92ccaYl+N5cT2sy0zzaqClTL2s2J/huJdVOdtm0UDA=="
-    length="1548392"
-    type="application/octet-stream"/>
-</item>
+        <item>
+            <title>Version 1.0.1</title>
+            <description><![CDATA[
+                <h3>⚡️EQ 1.0.1</h3>
+                <ul>
+                    <li>Cleaner header (single bolt mark)</li>
+                    <li>Buy License button alongside the trial badge</li>
+                    <li>Sparkle-driven auto-update</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 25 Jun 2026 09:40:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq_updates/releases/download/v1.0.1/PowerEQ-1.0.1.pkg"
+                sparkle:version="2"
+                sparkle:shortVersionString="1.0.1"
+                sparkle:edSignature="wr3ezfv7N4OKto7AWM4VqK2ru3tBdHgkKjyY+ht5JgxO92ccaYl+N5cT2sy0zzaqClTL2s2J/huJdVOdtm0UDA=="
+                length="1548392"
+                type="application/octet-stream"/>
+        </item>
     </channel>
 </rss>
