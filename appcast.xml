@@ -8,7 +8,26 @@
         <link>https://raw.githubusercontent.com/ludwig-ship-it/powereq_updates/main/appcast.xml</link>
         <description>Automatic updates for the ⚡️EQ audio unit.</description>
         <language>en</language>
-
+<item>
+            <title>Version 1.0.3</title>
+            <description><![CDATA[
+                <h3>⚡️EQ 1.0.3</h3>
+                <ul>
+                    <li>Free license variant — fully functional for 7 days from activation</li>
+                    <li>Paid license variant — perpetual unlock, both with 2 device activations</li>
+                    <li>License keys now show variant info in the trial pill</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sat, 27 Jun 2026 13:36:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq_updates/releases/download/v1.0.3/PowerEQ-1.0.3.pkg"
+                sparkle:version="4"
+                sparkle:shortVersionString="1.0.3"
+                sparkle:edSignature="QW9oQpthBlGVZipHKcrDOzhrsJUD5VfpgadiCSUqNM71XHQd8XSPKi94CXjDXz6wAExSr0p6frq+OTZQUlsPCw=="
+                length="1564587"
+                type="application/octet-stream"/>
+        </item>
 <item>
             <title>Version 1.0.2</title>
             <description><![CDATA[
