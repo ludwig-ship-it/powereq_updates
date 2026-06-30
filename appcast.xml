@@ -9,6 +9,24 @@
         <description>Automatic updates for the ⚡️EQ audio unit.</description>
         <language>en</language>
 <item>
+            <title>Version 1.0.4</title>
+            <description><![CDATA[
+                <h3>⚡️EQ 1.0.4</h3>
+                <ul>
+                    <li>DSP and licensing refinements</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 30 Jun 2026 23:13:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq_updates/releases/download/v1.0.4/PowerEQ-1.0.4.pkg"
+                sparkle:version="5"
+                sparkle:shortVersionString="1.0.4"
+                sparkle:edSignature="2qwZuZyq1dwRPKACrVnYlRu45O2ZC6kUbCUY8259XtNL7/bk8x6O/txc3F61Q7YifOpUM3yBdPlCRrd+wwvGAg=="
+                length="1596566"
+                type="application/octet-stream"/>
+        </item>
+<item>
             <title>Version 1.0.3</title>
             <description><![CDATA[
                 <h3>⚡️EQ 1.0.3</h3>
