@@ -9,6 +9,24 @@
         <description>Automatic updates for the ⚡️EQ audio unit.</description>
         <language>en</language>
 <item>
+            <title>Version 1.0.5</title>
+            <description><![CDATA[
+                <h3>⚡️EQ 1.0.5</h3>
+                <ul>
+                    <li>Fixes a crash when adjusting parameters during playback (audio-engine thread-safety fix)</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 30 Jun 2026 23:29:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq_updates/releases/download/v1.0.5/PowerEQ-1.0.5.pkg"
+                sparkle:version="6"
+                sparkle:shortVersionString="1.0.5"
+                sparkle:edSignature="OoekI5S5EwVHSC1q61hh2My6poZyv2Surh26+Mod4nglhgSLm//fIRoBo/8zSwWOvYrVeIAPuitxj+1/e5OKDA=="
+                length="1595823"
+                type="application/octet-stream"/>
+        </item>
+<item>
             <title>Version 1.0.4</title>
             <description><![CDATA[
                 <h3>⚡️EQ 1.0.4</h3>
