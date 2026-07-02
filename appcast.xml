@@ -9,6 +9,26 @@
         <description>Automatic updates for the ⚡️EQ audio unit.</description>
         <language>en</language>
 <item>
+            <title>Version 1.0.7</title>
+            <description><![CDATA[
+                <h3>⚡️EQ 1.0.7</h3>
+                <ul>
+                    <li>Advanced sliders (Clarity, Brightness, Reduce Boom, and friends) no longer reset to default when Final Cut starts playback</li>
+                    <li>Analyze results hold on more reliably — room-control settings are no longer reverted by Final Cut on play</li>
+                    <li>Reset now clears all processing, including hidden room-control settings</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 02 Jul 2026 17:44:01 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq_updates/releases/download/v1.0.7/PowerEQ-1.0.7.pkg"
+                sparkle:version="8"
+                sparkle:shortVersionString="1.0.7"
+                sparkle:edSignature="GDDenWUI/WouCB1wnNLp00+pPBydXsWtlHQCKwHflOAcP4Q7uTxXQ4FSZiaZV+25Db+wJl1qFgcXdHH+8lI6AA=="
+                length="1612744"
+                type="application/octet-stream"/>
+        </item>
+<item>
             <title>Version 1.0.6</title>
             <description><![CDATA[
                 <h3>⚡️EQ 1.0.6</h3>
