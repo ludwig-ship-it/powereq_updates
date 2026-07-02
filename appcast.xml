@@ -9,6 +9,27 @@
         <description>Automatic updates for the ⚡️EQ audio unit.</description>
         <language>en</language>
 <item>
+            <title>Version 1.0.6</title>
+            <description><![CDATA[
+                <h3>⚡️EQ 1.0.6</h3>
+                <ul>
+                    <li>Fixes automatic updates: the app previously reported the wrong internal version, causing repeated "update available" prompts after updating</li>
+                    <li>Fixes a rare crash when reopening a Final Cut Pro project during playback</li>
+                    <li>Analyze results saved with a project are no longer overwritten when the project is reopened</li>
+                    <li>The Analyze button no longer spins forever if playback isn't running — it now offers a hint instead</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 02 Jul 2026 16:49:11 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq_updates/releases/download/v1.0.6/PowerEQ-1.0.6.pkg"
+                sparkle:version="7"
+                sparkle:shortVersionString="1.0.6"
+                sparkle:edSignature="1UlM0ikuIxfUFvmKV5jc/zDoK8b/VyexmUxtPEWkcL9EvsG08IsOHrEX/+3GO4r09EdAPdFRMFwH8w644k0zCQ=="
+                length="1612620"
+                type="application/octet-stream"/>
+        </item>
+<item>
             <title>Version 1.0.5</title>
             <description><![CDATA[
                 <h3>⚡️EQ 1.0.5</h3>
