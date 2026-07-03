@@ -9,6 +9,28 @@
         <description>Automatic updates for the ⚡️EQ audio unit.</description>
         <language>en</language>
 <item>
+            <title>Version 1.0.9</title>
+            <description><![CDATA[
+                <h3>⚡️EQ 1.0.9</h3>
+                <ul>
+                    <li>Rebuilt settings engine — controls no longer reset at playback stop/start; panel, inspector, and saved projects stay in sync</li>
+                    <li>Fixes the settings churn during playback reported on 1.0.8</li>
+                    <li>New reset controls: Reset All (also resets the inspector), Reset Shape, Reset Sliders</li>
+                    <li>Microphone choice holds reliably; re-picking the same mic no longer changes other settings</li>
+                    <li>"Remove Voice Reverb" is now "De-Reverb"</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 03 Jul 2026 17:40:23 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq_updates/releases/download/v1.0.9/PowerEQ-1.0.9.pkg"
+                sparkle:version="10"
+                sparkle:shortVersionString="1.0.9"
+                sparkle:edSignature="iRFgVb4hNkvUbLdCZQPyQlV5qt4TOY2tu5rRlkRiWM+ojO4lbkHf1OUNtmnx7yNGhLpTq1JfhslMF5R7Cdz6Bg=="
+                length="1673459"
+                type="application/octet-stream"/>
+        </item>
+<item>
             <title>Version 1.0.8</title>
             <description><![CDATA[
                 <h3>⚡️EQ 1.0.8</h3>
