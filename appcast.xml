@@ -9,6 +9,28 @@
         <description>Automatic updates for the ⚡️EQ audio unit.</description>
         <language>en</language>
 <item>
+            <title>Version 1.0.8</title>
+            <description><![CDATA[
+                <h3>⚡️EQ 1.0.8</h3>
+                <ul>
+                    <li>Redesigned control panel — tabbed layout, larger controls, nothing scrolls</li>
+                    <li>New Microphone selection in the panel and Final Cut's inspector; saves with the project</li>
+                    <li>Copying the effect to another clip now carries all settings and Analyze results</li>
+                    <li>Settings survive closing and reopening projects far more reliably</li>
+                    <li>Analyze responds immediately; Advanced sliders and inspector stay in sync</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 03 Jul 2026 00:23:45 +0000</pubDate>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq_updates/releases/download/v1.0.8/PowerEQ-1.0.8.pkg"
+                sparkle:version="9"
+                sparkle:shortVersionString="1.0.8"
+                sparkle:edSignature="fDjDGyPkQlOVoVg/eeyVHPgEQ6oqZM1fbwRFF7nDwxBL3SZtcJXBnrQ6iswbM0jeVxrzRm+KiwVMP+l9zK31Bw=="
+                length="1673156"
+                type="application/octet-stream"/>
+        </item>
+<item>
             <title>Version 1.0.7</title>
             <description><![CDATA[
                 <h3>⚡️EQ 1.0.7</h3>
